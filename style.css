@@ -73,7 +73,11 @@ h4 {
 	font-weight: 300;
 	text-align:center;
 	}
-	
+
+.kortti-otsikko {
+	text-transformation: uppercase;
+	}
+		
 .lainaus-latina {
 	padding-top: 20px;
 	}
@@ -122,11 +126,23 @@ h4 {
 h2 {
 	text-align: left;
 	font-family: 'Quicksand', sans-serif;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	font-size: 1.3em;
 	font-weight: 500;
 	letter-spacing: -1px;
 	color: #007F3A;
+	}
+	
+.otsikkona {
+	font-size: 1.7em;
+	text-align: left;
+	}	
+	
+.faq {
+	font-sixe: 0.9em;
+	color: #465C29;
+	font-weight: 500;
+	text-transformation: none;
 	}
 	
 p {
